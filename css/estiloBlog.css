@@ -1,0 +1,161 @@
+body {
+    background-image: url("https://fondosmil.com/fondo/3885.jpg");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header{
+    padding: 1em;
+    color: rgb(24, 21, 21);
+    background-color: rgba(23, 250, 231, 0.185);
+    clear: left;
+    text-align: center;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup{
+    display: block;
+}
+
+h1 {
+    color:rgb(0, 0, 0);
+    font: bold 35px verdana, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h2 {
+    color:rgb(255, 255, 255);
+    font: bold 25px verdana, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h4 {
+    color:rgb(8, 248, 228);
+    font: bold 15px verdana, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#seccion {
+    float: left;
+    margin: 10px;
+}
+
+#cabecera {
+    background: #ffe7d6cb;
+    padding: 20px;
+}
+
+#pie {
+    clear: both;/* No permita elementos flotantes en el lado izquierdo
+                    o derecho de un elemento <p> especificado:*/
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #999999;
+}
+
+article {
+    background: #4d024d4f;
+    border: 1px solid #f3e4e4;
+    margin-bottom: 15px;
+    color: white;
+    margin-left: 10px;
+    padding: 1em;
+    overflow: hidden;
+    background-repeat:repeat-y; /*no-repeat;*/
+    /*background-size:300px 180px;*/
+}
+    
+article footer {
+    text-align: right;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 5px;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none; /* elimina viñeta*/
+    padding: 30px;
+}
+
+nav ul a {
+    text-decoration: none;
+
+}
+    
+time {
+    color: #f77700b4;
+}
+
+article footer {
+    text-align: right;
+    background-color: #00f7d671;
+}
+
+#img{
+    width: 30%;
+    height: 30%;
+}
+
+figcaption {
+    font: italic 14px verdana, sans-serif;
+    text-align: center;
+}
+
+#menu{
+    font-size: 1.5rem;
+    width: 20%;
+    text-align: center;
+    background:rgba(255, 238, 238, 0.514);
+    display: inline-block;
+    padding:10px;
+}
+
+.boton {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    margin-top: 9px;
+    margin-left: 9px;
+    padding: 5px; /*espacio alrededor texto*/
+    background-color: #031b41; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 30px; /*bordes redondos*/
+    float: left;
+}
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+#blog article {
+    margin: 15px;
+}
+  
+#blog img {
+    width: 100%;
+    max-width: 280px;
+    max-height: 450px;
+}
+
+img{
+    width: 200px; height: 700px;
+    filter: drop-shadow(0 0 5px black);
+  }

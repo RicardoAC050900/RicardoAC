@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(52, 217, 223);
+    
+}
+
+h1 {
+    font-family: "Comic Sans", cursive;
+    background-color:orangered;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: Century Gothic, sans-serif;
+    background-color: yellow;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p{
+    font-family: 'Courier New';
+    font-size: 1.5rem; 
+}
+
+li{
+    font-family: 'Lucida Sans Unicode'; 
+}
+
+img {
+    width: 10em;
+    height: 10em;
+    image-rendering: pixelated;
+    filter: drop-shadow(0 0 5px black); 
+    display:block;
+    margin:auto;
+}

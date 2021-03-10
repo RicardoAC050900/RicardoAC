@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(143, 99, 16);
+    
+}
+
+h1 {
+    font-family: "Comic Sans", cursive;
+    background-color:orangered;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: Century Gothic, sans-serif;
+    background-color: yellow;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+    font-family: Century Gothic, sans-serif; 
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+img {
+    width: 20em;
+    height: 20em;
+    image-rendering: pixelated;
+    filter: drop-shadow(0 0 5px black); 
+    display:block;
+    margin:auto;
+}

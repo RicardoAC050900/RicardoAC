@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(3, 49, 9);
+    
+}
+
+h1 {
+    font-family: Century Gothic, sans-serif;
+    background-color:green;
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    filter: drop-shadow(0 0 5px black); 
+    display:block;
+    
+}
+
+h2{
+    font-family: Century Gothic, sans-serif;
+    background-color: rgb(255, 251, 0);
+    font-size: 1.5rem;
+    text-align: left;
+    text-transform: uppercase;
+    
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(8, 54, 100);
+    text-align: right;
+    filter: drop-shadow(0 0 5px black); 
+    display:block;
+    
+    
+}
+
+li{
+    
+    font-family: Century Gothic, sans-serif;  
+    
+}
+
+a {
+    
+    font-family: Century Gothic, sans-serif; 
+    color: black;
+    font-size:20px;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    
+    
+}
+
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+    margin:0px auto;
+}
+
+.tg td{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:3px 20px;
+    word-break:normal;
+}
+
+.tg th{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:3px 20px;
+    word-break:normal;
+}
+
+.tg .tg-qndr{
+    background-color: red;
+    border-color:#000000;
+    font-size:20px;
+    font-family: Century Gothic, sans-serif;
+    text-align:left;
+    vertical-align:top
+}
+
+.tg .tg-6odt{
+    background-color:yellow;
+    border-color:#000000;
+    color:#000000;
+    font-size:24px;
+    font-weight:bold;
+    font-family: Century Gothic, sans-serif;
+    text-align:center;
+    vertical-align:middle
+    
+}
+
+img{
+    width: 250px; height: 350px;
+    filter: drop-shadow(0 0 5px black); 
+    display:block;
+  }
+
